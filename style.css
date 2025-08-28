@@ -1,0 +1,43 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: gainsboro;
+    color: black;
+}
+
+.container {
+    max-width: 50%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.468);
+}
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(35, 135, 216);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: rgb(44, 149, 235);
+}
+
+#responseData {
+    margin-top: 20px;
+}
