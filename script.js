@@ -1,6 +1,6 @@
 const URL_BASE = `https://api.openweathermap.org/data/2.5/weather`;
 
-const API_KEY = 'c6e76ccd54863a4549bf511aa401c420';
+const API_KEY = '';
 
 const diffKelvin = 273.15;
 
@@ -67,4 +67,5 @@ function showWheatherData (data) {
     divResponseDate.appendChild(humidityInfo)
     divResponseDate.appendChild(iconInfo)
     divResponseDate.appendChild(descriptionInfo)
+
 }
